@@ -14,6 +14,9 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
     // console.log(tweets);
     for(let i = 0; i < tweets.length; i++){
+      // trae la info del usuario que realizo el tweet
+      console.log(tweets[i].user.screen_name)
+      // trae el tweet
       console.log(tweets[i].text)
     }
   }
