@@ -5,7 +5,7 @@ En este proyecto se creó una web app para un portafolio personal, usando tecnol
 
 
   <a>
-    <img src="img/Arq.jpeg" alt="Logo" width="130" height="80">
+    <img src="img/Arq.jpeg" alt="Logo" width="400" height="800">
   </a>
 
 ## AWS Getway endpoints
