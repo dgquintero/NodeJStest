@@ -51,7 +51,7 @@ npm i
 npm run dev
 ```
 ## Total Time
-1st day 3 hr
-2nd day 5 hr
-3rd day 7 hr
-4rd day 
+- 1st day 3 hr
+- 2nd day 5 hr
+- 3rd day 7 hr
+- 4rd day 
