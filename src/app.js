@@ -18,6 +18,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
       console.log(tweets[i].user.screen_name)
       // trae el tweet
       console.log(tweets[i].text)
+      // return tweets[i].text
     }
   }
 });
