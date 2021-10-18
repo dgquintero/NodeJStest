@@ -18,11 +18,11 @@ PUT - https://cjwy613v3i.execute-api.us-east-2.amazonaws.com/PDN/portfolio
 
 
 ## steps to build the app
-Conexión realizada a la API de Twitter
-creación de la función serverless con AWS Lambda
-creación de la base de datos usando Dynamo
-Creación de los diferentes endpoints para ser consumidos
-Integración de las diferentes tecnologías en a single page web app
+- Conexión realizada a la API de Twitter
+- Creación de la función serverless con AWS Lambda
+- Creación de la base de datos usando Dynamo
+- Creación de los diferentes endpoints para ser consumidos
+- Integración de las diferentes tecnologías en a single page web app
 
 ## technologies used
 - AWS Lambda functions
