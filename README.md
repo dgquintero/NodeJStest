@@ -40,13 +40,13 @@ Se requiere [Node.js](https://nodejs.org/).
 
 Clone this repository ...
 ```sh
-git clone 
+git clone https://github.com/dgquintero/NodeJStest.git
 ```
 
 Instalar las dependencias e iniciar el servidor.
 
 ```sh
-cd NodeJStest https://github.com/dgquintero/NodeJStest
+cd NodeJStest
 npm i
 npm run dev
 ```
