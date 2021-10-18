@@ -1,6 +1,6 @@
 # NodeJStest
 
-En este proyecto se creó una web app para un portafolio personal, usando tecnologías serverless usando funciones lambda en AWS. Estás funciones fueron expuestas en dos enpoints usando AWS Getway para poder ser consumidas desde la web.
+En este proyecto se creó una web app para un portafolio personal, usando tecnologías serverless usando funciones lambda en AWS. Estás funciones fueron expuestas en dos endpoints usando AWS Getway para poder ser consumidas desde la web.
 
   <a>
     <img src="img/Arq.jpeg" alt="Logo" width="400" height="800">
@@ -16,7 +16,18 @@ Permite editar la información de la experiencia de la persona.
 
 PUT - https://cjwy613v3i.execute-api.us-east-2.amazonaws.com/PDN/portfolio
 
-Go to 
+- Realizar petición put vía postman envíado el parametro experience_summary a modificar.
+
+Ejemplo:
+
+```sh
+{
+    "body": {
+        "experience_summary": "Daniel Quintero Software developer Backend node js"
+    }
+}
+```
+
 
 ## steps to build the app
 - Conexión realizada a la API de Twitter
@@ -31,9 +42,12 @@ Go to
 - AWS API Gateway
 - NodeJs
 - Express
+- fetch
+- Javascript
 - Html
 - CSS
-- Javascript
+- bootstrap
+
 
 ## Run the solution
 
@@ -51,8 +65,12 @@ cd NodeJStest
 npm i
 npm run dev
 ```
+Abrir el navegador e ir
+
+http://localhost:3000/
+
 ## Total Time
 - 1st day 3 hr
 - 2nd day 5 hr
-- 3rd day 7 hr
-- 4rd day 
+- 3rd day 4 hr
+- 4rd day 4 hr
