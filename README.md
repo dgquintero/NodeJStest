@@ -34,6 +34,22 @@ Integración de las diferentes tecnologías en a single page web app
 - CSS
 - Javascript
 
+## Run the solution
+
+Se requiere [Node.js](https://nodejs.org/).
+
+Clone this repository ...
+```sh
+git clone 
+```
+
+Instalar las dependencias e iniciar el servidor.
+
+```sh
+cd NodeJStest https://github.com/dgquintero/NodeJStest
+npm i
+npm run dev
+```
 ## Total Time
 1st day 3 hr
 2nd day 5 hr
