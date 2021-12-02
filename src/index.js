@@ -2,6 +2,7 @@ const express =  require('express');
 const morgan = require('morgan');
 const app = express();
 const path = require('path')
+require('dotenv').config()
 
 // settings
 app.set('port', 3000)
@@ -15,9 +16,9 @@ app.get('/', (req, res)=> {
 })
 const Twitter = require('twitter');
 var client = new Twitter({
-    consumer_key: 'yXEQDE886PWAq4U16bZoJOima', 
-    consumer_secret: 'PJF1PxUHEGlK8rstauznA53lr4F62KSDBOH4nXGknMshlj9sRb', 
-    bearer_token: 'AAAAAAAAAAAAAAAAAAAAANrrUgEAAAAA60iX05tblsvjIoXNXKVIzEOhf7A%3DnqZGCGdoM1w7tjgRO8EiyvtpRyWUfn6UCT1yNyTHdZMPsk94dE'
+    consumer_key: process.env.apikey, 
+    consumer_secret: process.env.apikeysecret, 
+    bearer_token: process.env.bearertoken
 });
 
 var params = {screen_name: 'danielq02', count: 5};
